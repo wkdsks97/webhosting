@@ -33,7 +33,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
         var mp = new kakao.maps.LatLng(lat,lng);
         map.setCenter(mp); //맵 중심이동
         maker = new kakao.maps.Marker({position:mp})
-        maker.setMp(map);
+        maker.setMap(map);
     }
     
 </script>
